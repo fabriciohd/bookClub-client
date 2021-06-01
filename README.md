@@ -1,24 +1,35 @@
-# bookclub-client
+# bookClub Client
 
-## Project setup
+Front-End para para a aplicação de clube do livro.
+
+Documentação para acesso via API:
+* [**Configurações**](#configs)
+
+<a id="configs"></a>
+
+## Configurações do projeto
+Requisitos mínimos:
+- [NPM 6.14.10](https://www.npmjs.com/)
+- [VueJs ^2.6.11](https://vuejs.org/)
+- [Mysql 5.5.5-10.4.17-MariaDB](https://www.mysql.com)
+- [Composer](https://getcomposer.org)
+
+Dependências terceiras:
+- [v-calendar ^2.3.0](https://vcalendar.io/api/v2.0/)
+- [vue-notification ^1.3.20](https://github.com/euvl/vue-notification)
+<br>
+
+Primeiramente, ao abrir o projeto, lembre-se de instalar as dependências:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+Rode o projeto localmente para obter a url de acesso:
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+A aplicação consome a api: bookClub-api, portanto é necessário executa-la localmente:
+[bookClub-api](https://github.com/fabriciohd/bookClub-api)
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Obrigado! ;)
