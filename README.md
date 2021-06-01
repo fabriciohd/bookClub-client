@@ -2,7 +2,7 @@
 
 Front-End para para a aplicação de clube do livro.
 
-Documentação para acesso via API:
+Documentação para acesso do client:
 * [**Configurações**](#configs)
 
 <a id="configs"></a>
@@ -11,8 +11,6 @@ Documentação para acesso via API:
 Requisitos mínimos:
 - [NPM 6.14.10](https://www.npmjs.com/)
 - [VueJs ^2.6.11](https://vuejs.org/)
-- [Mysql 5.5.5-10.4.17-MariaDB](https://www.mysql.com)
-- [Composer](https://getcomposer.org)
 
 Dependências terceiras:
 - [v-calendar ^2.3.0](https://vcalendar.io/api/v2.0/)
